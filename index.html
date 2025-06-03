@@ -3,11 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
     <title>Notícia</title>
 </head>
 <body>
-    <header></header>
-    <main></main>
+    
+    <header>
+        <p>Notícias</p>
+    </header>
+    <main>
+        <section id="filter"></section>
+        <section id="newsContainer">
+            <button class="newscard" onclick="shangeFloating()">
+                <p>Titulo</p>
+                <p>Lide</p>
+            </button>
+        </section>
+    </main>
     <footer></footer>
+    <div id="floatingNews">
+        <div id="news">
+            <div id="tollbar">
+                <p>Titulo</p>
+                <button id="closse" onclick="shangeFloating()">
+                    <p>X</p>
+                </button>
+            </div>
+            <div id="newsContent"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
