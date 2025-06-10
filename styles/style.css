@@ -10,7 +10,7 @@ body {
   align-items: center;
   width: 100vw;
   height: 100vh;
-  background-color: blanchedalmond;
+  background-color: beige;
 }
 
 header {
@@ -24,18 +24,24 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: white;
   display: flex;
-  width: 70%;
+  width: 100%;
   height: 100%;
-  margin: 10px 0px;
+}
+main #filter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  margin: 5px 10px;
+  padding: 10px;
 }
 main #newsContainer {
   display: flex;
   flex-direction: column;
   width: 100%;
   height: 100%;
-  padding: 10px;
+  padding: 10px 60px;
 }
 main #newsContainer .newscard {
   border: 1px solid black;
